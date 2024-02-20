@@ -1,0 +1,82 @@
+  
+.mainContactContainer{
+    width:20%;
+    background-color: var(--color2);
+    float:left;
+}
+
+.searchforcontact{
+    width:70%;
+    height:5vh;
+    border-radius: 1rem;
+    background-color: var(--color4);
+}
+
+.searchforcontact::placeholder{
+    color:black;
+}
+
+
+.Chatuserimage{
+    width: 20%;
+    height: 50px;
+    padding: 5px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-clip: padding-box, border-box;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, var(--color2) 50%, var(--color1)50%);
+    border-image-slice: 1;
+    background: none;
+    object-fit: cover;
+}
+
+.UserCont{
+    display: flex;
+    margin-left: 2%;
+    background-color: var(--color4);
+    padding: 3%;
+    border-radius: 1.5rem;
+    width:90%;
+    margin-top:3%;
+    margin-bottom: 3%;
+   
+}
+.usertext1{
+    margin-left: 3%;
+}
+
+.usertext2{
+    margin-left: 3%;
+    margin-top:2%;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.userDetailsCont{
+    overflow: auto;
+    overflow-y: scroll;
+}
+.profile-avatar5 {
+    width:25%;
+    background: grey;
+    border-radius: 50%;
+    border: 3px solid var(--color2);
+  }
+
+  .profile-avatar6 {
+    width: 20%;
+    height: 50px;    
+    background: grey;
+    border-radius: 50%;
+    border: 3px solid var(--color2);
+  }
+
+  @media screen and (max-width: 800px) {
+    .usertext2{
+        margin-left: 3%;
+        margin-top:0%;
+        font-size: medium;
+        font-weight: 100;
+    }
+    
+  }

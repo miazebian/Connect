@@ -1,0 +1,116 @@
+
+.cover4 {
+    background-color: var(--color2);
+    color: var(--color4);
+    margin-bottom: 4%;
+    margin-top: 5%;
+    margin-left: 17%;
+    height: 85%;
+    width: 70%;
+    position: relative;
+    border-radius: 0.75em;
+    transition: 0.25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: var(--color1);
+    padding-bottom: 3%;
+  }
+
+  .form-container {
+    display: flex;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 420px;
+    padding: 1%;
+    margin:1%; 
+    font-weight: 500;
+  }
+
+  .label4{
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    width:155px;
+  }
+
+  .label5{
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+  }
+
+  .input3{
+    background-color: var(--color4);
+    width: 250px;
+    border-radius: 0.75em;
+    padding: 2%;
+    font-size: 100%;
+    border: solid 1px var(--color2);
+    color:var(--color2);
+  }
+
+  .input4{
+    background-color: var(--color4);
+    width: 244px;
+    border-radius: 0.75em;
+    padding: 2%;
+    font-size: 100%;
+    border: solid 1px var(--color2);
+    color:var(--color2);
+  }
+
+  .button1{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color4);
+    width: 30%;
+    border-radius: 0.75em;
+    padding: 2%;
+    font-size: 100%;
+    border: solid 1px var(--color2);
+    color:var(--color2);
+  }
+
+  .button1:hover{
+    background-color: var(--color2);
+    color:var(--color4);
+    border: solid 1px var(--color4);
+
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .cover4 {
+        width:fit-content;
+        margin:5%;
+    }
+  }
+  @media screen and (max-width: 1340px) {
+    .form-container {
+        flex-wrap: wrap;
+        display: flex;
+    }
+   
+    .form-container{
+        display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; 
+    }
+
+  }
+  

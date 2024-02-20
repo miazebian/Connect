@@ -1,0 +1,80 @@
+
+  
+  .popupcontent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 80vh; /* Set a maximum height for the popup content */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    width: 80%;
+    margin-left:9%;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .border{
+    margin: 2%;
+    padding:2.5%;
+    border-radius: 0.75rem;
+    border: solid 1px;
+  }
+
+  .comment{
+    margin: 2%;
+    padding:2.5%;
+    border-radius: 0.75rem;
+    border: solid 1px;
+    width: 90%;
+    height:100px;
+  }
+
+  .button4{
+    background: none;
+    border: none;
+    float: right;
+    padding:3%;
+    margin-left: 10%;
+    margin-bottom:5%;
+  }
+
+  .button4:hover{
+    background-color: var(--color2);
+    color:white;
+    border-radius: 0.75rem;
+  }
+
+  .profile-avatar4 {
+    height:60px;
+    width:60px;
+    background: grey;
+    border-radius: 50%;
+    border: 3px solid var(--color2);
+    margin-left: -8%;
+  }
+
+  .reviewtext{
+    color:var(--color2);
+    margin: 3%;
+  }
+
+  .button5{
+    background: none;
+    border: none;
+    float: right;
+    margin-top:-10% ;
+    padding:2%;
+
+  }
+
+  .button5:hover{
+    background-color: var(--color2);
+    color:white;
+    border-radius: 0.75rem;
+  }

@@ -1,0 +1,49 @@
+
+  .cn{
+    border: var(--color2) 1px solid;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom:2%;
+    color:var(--color);
+    background: none;
+    border-radius: 0.75em;
+
+  }
+
+  .friend-suggestion-container {
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    
+}
+  
+ 
+  .friend-suggestion-container .friend-list .friend-suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  
+  
+  .friend-suggestion-container .friend-list .friend-suggestion button {
+    border: none;
+  background: none;
+  margin-left: auto;
+  font-weight: normal;
+  font-size: 0.8rem;
+  
+    
+  }
+
+  .friend-suggestion-container .friend-list .friend-suggestion .p2 {
+    margin-left: auto;
+  }
+
+  .friend-suggestion-container .friend-list .friend-suggestion .p1 {
+    margin-left: auto;
+  }

@@ -1,0 +1,81 @@
+.card{
+    margin: 5%;
+    padding:5%;
+    position: relative;
+}
+.card1{
+    margin: 2%;
+    padding:2%;
+    position: relative;
+    background-color: var(--color1);
+    width:70%;
+    color: #0a181d;
+    border-radius: 0.5rem;
+}
+
+.cont{
+    width:25%;
+    height: 20%;
+}
+
+.profile-avatar1 {
+    height:80px;
+    width:80px;
+    background: grey;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 3px solid #fff;
+    margin-left: -5%;
+  }
+
+  .profile-avatar2 {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: 5%;
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    .card1 {
+      margin: 4%; 
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .card1 {
+      margin: 6%; 
+    }
+  }
+
+  .description{
+    width: 100%; /* Adjust width as needed */
+    height: fit-content;
+    overflow: auto;
+    word-wrap: break-word; /* Break words that exceed the container width */
+    white-space: pre-wrap;
+  }
+
+  .button14{
+      background-color: var(--color1);
+      color: #000000;
+      padding: 0.5rem;
+      margin-top:2%;
+      border-radius: 0.5rem;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  
+    .button15{
+      background-color: var(--color2);
+      color: var(--color4);
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      cursor: pointer;
+      margin-left: 3%;
+    }
+  

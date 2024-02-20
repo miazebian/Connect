@@ -1,0 +1,141 @@
+.contact-us-wrapper {
+    background-color: var(--color4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .popup1 {
+    margin-top: 7%;
+    height: 50%;
+    width: 45%;
+    margin-bottom: 10%;
+    border-radius: 0.75em;
+    background-color: var(--color4);
+    color: var(--color1);
+    position: absolute;
+  }
+  .talk2{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    font-size: larger;  
+  }
+  
+  
+  .move{
+    margin-right: 43%;  
+  }
+  
+  .contact-us-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-us-header h1 {
+    color: var(--color2);
+    text-align: center;
+    margin-left: 2rem;
+  }
+  
+  .contact-us-header img {
+    max-width: 50px;
+    margin-left: 1rem;
+  }
+  
+  .contact-us-form {
+    background-color: var(--color2);
+    color:var(--color4);
+    padding: 3rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  
+  .contact-us-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 1rem;
+    color:var(--color4);
+
+  }
+  
+  .contact-us-inputs label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color:var(--color4);
+    font-weight: bold;
+  }
+  
+  .contact-us-inputs input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 1px #404040;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us{
+    margin: 3%;
+    font-size: xx-large;
+  }
+  
+  .contact-us-form textarea {
+    font-size: 16px;
+    font-weight: 400;
+    color: #404040;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 100%;
+    width: 90%;
+    height: 150px;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  
+  .button13 {
+    background-color: var(--color4);
+    color: var(--color2);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .button12{
+    background:none;
+    border: none;
+    float: right;
+    padding-top: 3%;
+    padding-right: 5%;
+  }
+  
+
+  .left1{
+    right:0;
+    
+    background-image: url(/src/CSS/logo2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  background-color: var(--color4);
+  margin-top: 10%;
+  }
